@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --bg: #ffffff;
+    --bg-soft: #f5f5f5;
+    --bg-elevated: #ffffff;
+    --border: #111111;
+    --border-soft: rgba(17, 17, 17, 0.12);
+    --border-hover: rgba(17, 17, 17, 0.28);
+    --text: #111111;
+    --text-muted: #6b6b6b;
+    --accent: #111111;
+    --accent-bright: #111111;
+    --accent-deep: #111111;
+    --accent-soft: #f5f5f5;
+    --accent-mid: #d4d4d4;
+    --glow: rgba(17, 17, 17, 0.08);
+    --success: #111111;
+    --warning: #525252;
+    --error: #111111;
+    --radius-sm: 12px;
+    --radius-md: 20px;
+    --radius-lg: 28px;
+    --radius-pill: 999px;
+  }
+  
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: "Noto Sans SC", "Nunito", system-ui, -apple-system, "Segoe UI", sans-serif;
+    color: var(--text);
+    background: var(--bg);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  
+  #root {
+    min-height: 100vh;
+  }

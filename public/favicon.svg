@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <circle cx="60" cy="60" r="32" stroke="#111111" stroke-width="1.5" />
+  <ellipse
+    cx="60"
+    cy="60"
+    rx="52"
+    ry="14"
+    stroke="#111111"
+    stroke-width="1.5"
+    transform="rotate(-18 60 60)"
+  />
+  <circle cx="48" cy="52" r="6" stroke="#111111" stroke-width="1.2" />
+  <circle cx="72" cy="68" r="4" stroke="#111111" stroke-width="1.2" />
+  <path
+    d="M40 44c4-6 12-8 16-4"
+    stroke="#111111"
+    stroke-width="1.2"
+    stroke-linecap="round"
+  />
+</svg>
