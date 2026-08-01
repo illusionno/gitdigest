@@ -121,12 +121,41 @@ src/
   App.tsx         # 页面主流程
 ```
 
+## 🐳 Docker 部署（阿里云轻量等）
+
+适合在已安装 Docker 的云服务器上运行。镜像内用 Nginx 提供静态文件，**不要**把 API Key 打进镜像。
+
+```bash
+# 在服务器上
+git clone https://github.com/你的用户名/gitdigest.git
+cd gitdigest
+docker compose up -d --build
+```
+
+浏览器访问：`http://服务器公网IP`  
+记得在云控制台防火墙放行 **80** 端口。
+
+更新代码后：
+
+```bash
+cd gitdigest
+git pull
+docker compose up -d --build
+```
+
+可选清理无用镜像以节省磁盘：
+
+```bash
+docker image prune -f
+docker builder prune -f
+```
+
 ## ⚠️ 注意事项
 
 - 仅支持 **公开** GitHub 仓库
-- 未登录访问 GitHub API 有速率限制（约 60 次/小时）
+- 未填写 GitHub Token 时，API 有速率限制（约 60 次/小时）；填写后约 5000 次/小时
 - AI 分析依赖 README 与仓库元数据质量；空 README 时效果会变差
-- API Key 请勿提交到 Git；`.env` 已在 `.gitignore` 中忽略
+`.env` 已在 `.gitignore` 中忽略
 
 ## 📄 许可证
 
