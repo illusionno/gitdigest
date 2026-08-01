@@ -6,6 +6,8 @@ AI digest for GitHub repos — decide if a project is worth learning, or compare
 
 粘贴一个公开的 GitHub 仓库链接，GitDigest 会结合仓库元数据与 README，生成面向学习者的分析报告：值不值得学、为什么火、技术栈、学习路径、适用场景，以及什么情况可以跳过。也支持并排对比两个仓库，帮你判断先学哪一个。
 
+<img width="2822" height="1462" alt="image" src="https://github.com/user-attachments/assets/c3f9e169-c2d4-4a27-a9f3-5df0c6d3ba2e" />
+
 ## 💡 为什么做这个
 
 逛 GitHub 的时候，我常常会被一个仓库的 star 数、热榜位置，或者一句很酷的 slogan 吸引——点进去，却花半小时才发现：它并不适合我现在的阶段，或者其实和我要解决的问题差得很远。
@@ -19,6 +21,10 @@ GitDigest 就是为这个问题而生的。
 它不是又一个「仓库摘要工具」，而是想帮你在动手之前先想清楚：它解决什么痛点、技术栈长什么样、怎么学比较高效、什么人适合、什么情况可以直接跳过。如果你正在两个看起来都不错的仓库之间犹豫，也可以把它们放在一起比一比。
 
 我希望它能省下那些「打开了很多 tab，最后却不知道该学哪个」的夜晚——把时间留给真正值得深入的项目。
+
+<img width="2880" height="1462" alt="image" src="https://github.com/user-attachments/assets/7e4d265b-3b6b-4a67-87bb-236412c9460a" />
+
+<img width="2880" height="1462" alt="image" src="https://github.com/user-attachments/assets/34eb3c67-2105-4094-adf9-948d41b58f63" />
 
 ## ✨ 功能
 
