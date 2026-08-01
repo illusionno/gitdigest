@@ -1,0 +1,8 @@
+# 一键启动
+services:
+  gitdigest:
+    build: .
+    container_name: gitdigest
+    ports:
+      - "80:80"
+    restart: unless-stopped
